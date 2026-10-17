@@ -2,7 +2,26 @@
 
 Five small, personal replications of published AI safety studies. They are study scale: each runs in minutes on a laptop GPU or for a few cents of API calls. The notebooks are saved with their outputs, so you can read them without running anything.
 
-Each one follows the same steps: the worry, the question, a hypothesis with controls, data, pipeline, metrics, an attempt to break the result, and a write-up of what the run actually found.
+Each one follows the same twelve-step method, set out below.
+
+## The twelve steps
+
+Each notebook opens with a short table covering the planning steps (1 to 5). Every section after that is one of the hands-on steps (6 to 12), headed with its number. A step that doesn't apply is skipped (notebook 05 has no judge, so no step 9), and one section can cover two steps ("Steps 7 and 8").
+
+| Step | What it means |
+|---|---|
+| 1. Name the worry | What could go wrong in the real world |
+| 2. Prior work and the gap | Which study this mirrors, and what it leaves open |
+| 3. The question | Phrased so the answer is a number |
+| 4. Hypothesis, alternatives and controls | What you expect, what else could explain it, and the comparison that rules that out |
+| 5. Scope | What is in and what is out |
+| 6. Data | Where the examples come from, and checking them |
+| 7. Cheapest stand-in | The smallest model or setup that could still show the effect |
+| 8. Pipeline | The code that runs the experiment |
+| 9. Validate the judge | Check any automated grader against hand labels before trusting it |
+| 10. Honest statistics | Intervals, fixed false-positive budgets, several seeds |
+| 11. Try to break it | Controls and ablations that look for a boring explanation |
+| 12. Write-up | What the run actually found, and its limits |
 
 ## What the runs found
 

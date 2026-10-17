@@ -11,6 +11,8 @@ md(nb, """
 hundred queries before release but answers millions after. The rare failures that matter may never appear in testing.
 The paper fits the **tail** of the per-query failure probabilities and extrapolates it.
 
+**How this notebook is laid out.** It follows the twelve-step method in the [README](README.md#the-twelve-steps). The table below covers the planning steps (1 to 5); each section after it is one of the hands-on steps (6 to 12). Steps that don't apply here are skipped.
+
 | Step | Here |
 |---|---|
 | 1 Worry | Testing sees thousands of queries; deployment sees billions. A failure rate that looks like zero in testing can mean many failures in deployment |

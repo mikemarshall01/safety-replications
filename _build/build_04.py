@@ -12,6 +12,8 @@ behaviour in the training prompt may stop the model internalising it. The contro
 [Subliminal Learning](https://alignment.anthropic.com/2025/subliminal-learning/): an untrained model, an irrelevant
 instruction, several seeds, and a capability check.
 
+**How this notebook is laid out.** It follows the twelve-step method in the [README](README.md#the-twelve-steps). The table below covers the planning steps (1 to 5); each section after it is one of the hands-on steps (6 to 12). Steps that don't apply here are skipped.
+
 | Step | Here |
 |---|---|
 | 1 Worry | Training data often mixes what we want with something we do not (reward hacking, sycophancy). Cleaning it is expensive |

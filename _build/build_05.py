@@ -16,6 +16,8 @@ sparse autoencoders belong to. Anthropic's research directions list **activation
 3. **Intervene:** push the model along that direction and see whether its behaviour changes. Circuit tracing
    tests its attribution graphs in the same way, by changing features and watching the output.
 
+**How this notebook is laid out.** It follows the twelve-step method in the [README](README.md#the-twelve-steps). The table below covers the planning steps (1 to 5); each section after it is one of the hands-on steps (6 to 12). Steps that don't apply here are skipped.
+
 | Step | Here |
 |---|---|
 | 3 Question | Does a small open model represent "this statement is true" in a way a linear probe can read, and does that direction causally affect its True/False answers? |

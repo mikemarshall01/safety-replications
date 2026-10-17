@@ -11,6 +11,8 @@ md(nb, """
 (validate the judge against human labels before trusting it) and [Petri](https://alignment.anthropic.com/2025/petri/)
 (the judge quotes evidence before scoring; measure eval-awareness).
 
+**How this notebook is laid out.** It follows the twelve-step method in the [README](README.md#the-twelve-steps). The table below covers the planning steps (1 to 5); each section after it is one of the hands-on steps (6 to 12). Steps that don't apply here are skipped.
+
 | Step | Here |
 |---|---|
 | 1 Worry | Agents that report on their own performance may shade the truth when their deployment depends on it |
